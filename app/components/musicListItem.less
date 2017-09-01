@@ -1,0 +1,21 @@
+.components-listitem {
+  height: 36px;
+  line-height: 36px;
+  border-bottom: 1px solid #ddd;
+  text-indent: 10px;
+  cursor: pointer;
+  .delete {
+    margin-right: 25px;
+    background: url("/static/images/delete.png");
+    background-size: contain;
+    width: 25px;
+    height:25px;
+  }
+
+  &.focus {
+    color: #2f9842;
+  }
+}
+.components-listitem:hover {
+  background: #eee;
+}
